@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Zásady ochrany soukromí Vystavapp</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; padding: 24px 16px; background: #f8f5f1; color: #152030; font: 500 16px/24px system-ui, sans-serif; overflow-wrap: break-word; }
+  main { max-width: 640px; margin: 0 auto; }
+  nav { text-align: right; }
+  h1 { margin: 8px 0 0; padding-bottom: 16px; border-bottom: 1px solid #e1ddd8; font-size: 22px; line-height: 28px; font-weight: 700; }
+  h2 { margin: 32px 0 8px; font-size: 18px; line-height: 24px; font-weight: 700; }
+  p { margin: 0 0 16px; }
+  code { font-family: ui-monospace, monospace; font-size: 1em; }
+  footer { margin-top: 32px; }
+  .date { margin: 16px 0 16px; color: #455160; font-size: 12px; line-height: 16px; }
+  a { color: #006f8c; text-decoration: underline; }
+  @media (min-width: 640px) { body { padding-top: 48px; } }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0d141e; color: #f0e6d8; }
+    h1 { border-bottom-color: #1f262f; }
+    .date { color: #bdb6ae; }
+    a { color: #52ddf0; }
+  }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../" lang="en" hreflang="en">English</a></nav>
+<h1>Zásady ochrany soukromí Vystavapp</h1>
+<p class="date">Naposledy aktualizováno 18. listopadu 2026</p>
+<p>Vystavapp je fakturační aplikace pro několik lidí, kterým ji autor osobně předal. Nemá žádné účty a její autor neprovozuje žádný server.</p>
+
+<h2>Vaše data zůstávají ve vašem zařízení</h2>
+<p>Vaše firmy, klienti, faktury a nastavení jsou uložené jen v zařízení, které používáte. Autor Vystavappu je nemůže vidět. Jsou součástí vaší vlastní zálohy zařízení (iCloud, Time Machine nebo záloha do počítače), pokud ji máte zapnutou. Faktury, exporty a záložní soubory, které uložíte nebo odešlete, jdou jen tam, kam je pošlete. Vystavapp vaše data nikdy neprodává ani nikomu nepředává. Chcete-li vše smazat, smažte aplikaci; na Macu smažte i složku Library/Application Support/Vystavapp. Soubory, které jste uložili nebo odeslali, zůstanou tam, kam jste je dali.</p>
+
+<h2>Žádná analytika</h2>
+<p>Vystavapp nemá žádnou analytiku, reklamu ani sledování. Aplikace sama nikomu neposílá žádná data o tom, jak ji používáte.</p>
+
+<h2>Dotazy do rejstříků</h2>
+<p>Když zadáte IČO nebo DIČ nebo si vyžádáte kurz, Vystavapp se ze zařízení dotáže přímo veřejného rejstříku: ARES (český rejstřík firem), RPO (slovenský rejstřík firem), VIES (ověření DIČ v EU) a Česká národní banka (směnné kurzy). Odešle jen to, co dotaz potřebuje: ověřované IČO nebo DIČ, nebo datum. Při ověření DIČ odešle i vaše vlastní DIČ, aby odpověď platila jako váš doklad o ověření. Každý rejstřík vidí vaši internetovou adresu.</p>
+
+<h2>Gmail, jen pokud ho připojíte</h2>
+<p>Pokud připojíte účet Gmail, Vystavapp z něj může odesílat vaše faktury a upomínky, a to jen když stisknete Odeslat. Od Googlu žádá jen dvě věci: oprávnění odesílat e-maily (<code>gmail.send</code>) a vaši e-mailovou adresu (<code>openid</code>, <code>email</code>), kterou zobrazuje, abyste věděli, který účet je připojený. Vaši poštu nemůže číst, prohledávat ani mazat. Každá zpráva jde i s příjemci a přílohami z vašeho zařízení přímo Googlu a přes nikoho dalšího. Přihlášení je uložené šifrovaně ve vašem zařízení a nikde jinde; vaše adresa a číslo, které Google přidělí každé odeslané zprávě, zůstávají u faktury ve vašem zařízení. Odpojit ho můžete kdykoli v aplikaci, čímž se přihlášení smaže, nebo na <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Používání informací získaných z rozhraní Google API a jejich předávání jiným aplikacím se ve Vystavappu řídí zásadami <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, včetně požadavků na omezené použití (Limited Use).</p>
+
+<h2>Aktualizace a testovací verze</h2>
+<p>Aplikace pro Mac hledá novou verzi na GitHubu a stahuje ji odtud; GitHub vidí vaši internetovou adresu, jako při každém stažení. Pokud si aplikaci do iPhonu nainstalujete přes TestFlight, Apple předá autorovi zprávy o pádech, model iPhonu a verzi iOS, údaj o tom, jak často aplikaci otevíráte, a zpětnou vazbu nebo snímky obrazovky, které se rozhodnete odeslat. Tyto údaje posílá TestFlight, ne Vystavapp, a nejsou v nich vaše faktury, pokud je neukazuje snímek, který sami odešlete.</p>
+
+<h2>Kontakt</h2>
+<p>Vystavapp vytváří soukromá osoba v České republice. Dotazy: <a href="mailto:vystavapp@gmail.com">vystavapp@gmail.com</a></p>
+<footer><a href="../../">Vystavapp</a></footer>
+</main>
+</body>
+</html>
